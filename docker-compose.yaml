@@ -1,15 +1,11 @@
 version: '3.0'
 services:
-  build: 
-    dockerfile: ./Dockerfile
-    context: '.'
   database:
-    image: postgres
-    container_name: elefante
+    image: meu-projeto
+    container_name: projeto
     environment: 
       POSTGRES_HOST: localhost
       POSTGRES_PASSWORD: admin
-      POSTGRES_USER: adelson
-      POSTGRES_DB: seila
+      POSTGRES_DB: projeto
     ports: 
-      - 5000:5432 
+      - 5432:5432 

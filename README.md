@@ -1,3 +1,7 @@
 # docker-postgres
 
-TA TUDO ERRADO SKSKKSSKSKSKSKSKSKS
+### Como rodar:
+~~~
+$ docker build -t meu-projeto .
+$ docker compose up -d
+~~~
