@@ -1,6 +1,6 @@
 FROM postgres
 
-WORKDIR /database/script.sql
+WORKDIR /database
 
 COPY ./database/script.sql /docker-entrypoint-initdb.d/
 
